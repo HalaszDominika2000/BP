@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box; /* Tároló: A CSS box-sizingtulajdonság lehetővé teszi, hogy a kitöltést és a szegélyt belefoglaljuk egy elem teljes szélességébe és magasságába. */
+}
+
+body {
+    background-image: url(kepek/v3.jpg); /* Háttérkép */
+}
+
+section {
+    text-decoration-color: #456280;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
