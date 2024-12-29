@@ -5,11 +5,11 @@
 body {
     background-image: url(kepek/v3.jpg); /* Háttérkép */
 }
-
-section {
-    text-decoration-color: #456280;
+main{
+  background-color: #cfc6b5;
+  width: 80%;
+  margin: auto; /*berakta középre a képet*/
 }
-
 table {
     border-collapse: collapse;
     width: 100%;
@@ -22,6 +22,32 @@ table {
   
   tr:nth-child(even) {
     background-color: #D6EEEE;
+  }
+
+  header{
+    background-color: #506a85;
+    text-align: center; /* szöveg középre igazítása*/
+    height: 50px;
+  }
+
+  footer{
+    background-color: #506a85;
+    text-align: center; /* szöveg középre igazítása*/
+    height: 30px;
+  }
+
+  h1, h2, p {
+    padding: 10px;
+    color: #456280;
+  }
+
+  table {
+    color: #456280;
+  }
+
+  th {
+    color: #f3efe9;
+    background-color: #506a85;
   }
 
 
