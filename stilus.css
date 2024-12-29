@@ -35,9 +35,10 @@ table {
     background-color: #506a85;
     text-align: center; /* szöveg középre igazítása*/
     height: 30px;
+    color: #dad5ca;
   }
 
-  h1, h2, p {
+  h1, h3, p, .betuszin {
     padding: 10px;
     color: #456280;
   }
@@ -67,7 +68,7 @@ table {
   }
 
   header h1 {
-    color: #f3efe9;
+    color: #dad5ca;
     padding: 0px;
   }
 
