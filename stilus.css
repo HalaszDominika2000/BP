@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box; /* Tároló: A CSS box-sizingtulajdonság lehetővé teszi, hogy a kitöltést és a szegélyt belefoglaljuk egy elem teljes szélességébe és magasságába. */
+    text-align: center;
 }
 
 body {
@@ -27,7 +28,7 @@ table {
   header{
     background-color: #506a85;
     text-align: center; /* szöveg középre igazítása*/
-    height: 50px;
+    height: 70px;
   }
 
   footer{
@@ -50,9 +51,90 @@ table {
     background-color: #506a85;
   }
 
+  nav li a{
+    text-decoration: none; /*Leszedi az aláhúzásokat*/
+  }
+
+  nav ul {
+    list-style-type: none; /* Felsorolás jelek eltüntetése */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 100px;
+    display: grid; 
+  }
+
+  nav li {
+    display: inline; /*Vízszintes elrendezés*/
+  }
+
+  header h1 {
+    color: #f3efe9;
+    padding: 0px;
+  }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-areas: 
+  "h h"
+  "n n"
+  "as ar"
+  "f f"; 
+}
+ 
+header {
+  grid-area: h; 
+}
+
+nav {
+  grid-area: n;
+}
+
+aside {
+  grid-area: as;
+}
+
+article {
+  grid-area: ar;
+}
+
+footer {
+  grid-area: f;
+}
+
+@media only screen and (max-width: 700px) { /* reszponzivitás beállítása, törés pontok kisebb képernyő esetén */
+  main {
+      display: grid; /* Terület neve */
+      grid-template-columns: 1fr; /* Terület felosztás oszlop szerint, egy részre oszlik a képernyő*/
+      grid-template-areas: 
+      "h"
+      "n"
+      "as" 
+      "ar"
+      "f"; /* Kinek mekkora területet adunk: Header, nav, footer teljes szélességében használja article, asside nem teljesen */
+      width: 150%;
+      max-width: 1000px; /* Max szélesség */
+      margin: auto; /* Margónak az állítása */
+      
+  }
+ 
+}
 
 
 
