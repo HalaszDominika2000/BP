@@ -72,6 +72,30 @@ table {
     padding: 0px;
   }
 
+  article h3, .keret {
+    border: 2px solid black;
+    border-radius: 8px; /*Kerekítés tulajdonsága*/
+    padding: 5px;   
+  } 
+
+article h3 {
+  background-color:  #b3a792;
+}
+
+.keret {
+  background-color: #dad5ca;
+}
+
+.kep {
+  height: 500px;
+}
+
+.kep2 {
+  border: 5px solid #7893ae;
+}
+
+
+
 
 
 

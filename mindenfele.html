@@ -26,7 +26,7 @@
             </ul>
         </nav>
         <aside>
-            <img src="kepek/Virag.png" alt="viragoskep">
+            <div class="kep"><img src="kepek/Virag.png" alt="viragoskep"></div>
         </aside>
         <article>
             <h1>Kapcsolat</h1>
@@ -34,7 +34,7 @@
 
             <div class="betuszin">
                 <form action="/action_page.php">
-                    <label for="nev">Név</label>
+                    <div class="keret"><label for="nev">Név</label>
                     <input type="text" id="szoveg" name="nev" placeholder="A neved...">
                     <br>
                     <label for="email">E-mail</label>
@@ -45,22 +45,22 @@
                         <option value="tizenot_vagy_kevesebb">15 vagy kevesebb</option>
                         <option value="tizenot_feletti">15 feletti</option>
                         <option value="felnottkoru">felnőttkorú</option>
-                    </select>
+                    </select></div>
                     <br>
 
                     <h3>Értékelés</h3>
 
-                      <input type="radio" id="szoveg" name="fav_language" value="HTML">
+                      <div class="keret"><input type="radio" id="szoveg" name="fav_language" value="HTML">
                       <label for="html">Nagyon tetszik</label><br>
                       <input type="radio" id="szoveg" name="fav_language" value="CSS">
                       <label for="css">Tetszik</label><br>
                       <input type="radio" id="szoveg" name="fav_language" value="JavaScript">
                       <label for="javascript">Nem tetszik</label><br>
                     <input type="radio" id="szoveg" name="fav_language" value="JavaScript">
-                      <label for="javascript">Nagyon nem tetszik</label><br>
+                      <label for="javascript">Nagyon nem tetszik</label></div><br>
 
                     <h3>Megjegyzés</h3>
-                    <textarea name="message" rows="10" cols="30"></textarea><br>
+                    <div class="keret"><textarea name="message" rows="10" cols="30"></textarea></div><br>
                     <input type="submit" value="Küldés">
                 </form>
             </div>
