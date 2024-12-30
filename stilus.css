@@ -54,6 +54,8 @@ table {
 
   nav li a{
     text-decoration: none; /*Leszedi az aláhúzásokat*/
+    color: #456280;
+    font-family: sans-serif;
   }
 
   nav ul {
@@ -75,7 +77,10 @@ table {
   article h3, .keret {
     border: 2px solid black;
     border-radius: 8px; /*Kerekítés tulajdonsága*/
-    padding: 5px;   
+    padding: 5px; 
+    height: 20%; /* Keret szélesség magasság még javítani kell*/
+    width: 50%;
+
   } 
 
 article h3 {
@@ -92,8 +97,17 @@ article h3 {
 
 .kep2 {
   border: 5px solid #7893ae;
+  height: 20%; /* Keret szélesség magasság még javítani kell*/
+  width: 46%;
 }
 
+h1, h3, p {
+  font-family: sans-serif;
+}
+
+th, td {
+  font-family: sans-serif;
+}
 
 
 
