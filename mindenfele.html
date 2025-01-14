@@ -7,7 +7,7 @@
     <meta name="keywords" content="HTML, CSS">
     <meta name="author" content="Halasz Dominika">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stilus.css">
+    <link rel="stylesheet" href="stilus2.css">
     <title>Halász Dominika</title>
 </head>
 
@@ -26,45 +26,45 @@
             </ul>
         </nav>
         <aside>
-            <div class="kep"><img src="kepek/Virag.png" alt="viragoskep"></div>
+            <img src="kepek/Virag.png" alt="viragoskep">
         </aside>
         <article>
-            <h1>Kapcsolat</h1>
-            <h3>Adataid</h3>
-
-            <div class="betuszin">
-                <form action="/action_page.php">
-                    <div class="keret"><label for="nev">Név</label>
-                    <input type="text" id="szoveg" name="nev" placeholder="A neved...">
-                    <br>
-                    <label for="email">E-mail</label>
-                    <input type="text" id="szoveg" name="email" placeholder="Az e-mail címed...">
-                    <br>
-                    <label for="kor">Kor</label>
-                    <select id="szoveg" name="kor">
-                        <option value="tizenot_vagy_kevesebb">15 vagy kevesebb</option>
-                        <option value="tizenot_feletti">15 feletti</option>
-                        <option value="felnottkoru">felnőttkorú</option>
-                    </select></div>
-                    <br>
-
-                    <h3>Értékelés</h3>
-
-                      <div class="keret"><input type="radio" id="szoveg" name="fav_language" value="HTML">
-                      <label for="html">Nagyon tetszik</label><br>
-                      <input type="radio" id="szoveg" name="fav_language" value="CSS">
-                      <label for="css">Tetszik</label><br>
-                      <input type="radio" id="szoveg" name="fav_language" value="JavaScript">
-                      <label for="javascript">Nem tetszik</label><br>
-                    <input type="radio" id="szoveg" name="fav_language" value="JavaScript">
-                      <label for="javascript">Nagyon nem tetszik</label></div><br>
+            <h3>Kapcsolat</h3>
+            <div class="adataid">
+                <legend>Adataid</legend>
+                <form>
+                    <label for="name">Név:</label>
+                    <input type="text" id="name" name="name" placeholder="A neved..."><br>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Az e-mail címed..."><br>
+                    <label for="age">Kor:</label>
+                    <select id="age" name="age">
+                        <option value="15_vagy_kevesebb">15 vagy kevesebb</option>
+                        <option value="16-20">16-20</option>
+                        <option value="21-25">21-25</option>
+                        <option value="26_vagy_tobb">26 vagy több</option>
+                    </select>
+                </form>
+            </article>
+                    
+                    <!--
+                    <div class="keret"><input type="radio" id="szoveg" name="fav_language" value="HTML">
+                        <label for="html">Nagyon tetszik</label><br>
+                        <input type="radio" id="szoveg" name="fav_language" value="CSS">
+                        <label for="css">Tetszik</label><br>
+                        <input type="radio" id="szoveg" name="fav_language" value="JavaScript">
+                        <label for="javascript">Nem tetszik</label><br>
+                        <input type="radio" id="szoveg" name="fav_language" value="JavaScript">
+                        <label for="javascript">Nagyon nem tetszik</label>
+                    </div><br>
 
                     <h3>Megjegyzés</h3>
                     <div class="keret"><textarea name="message" rows="10" cols="30"></textarea></div><br>
                     <input type="submit" value="Küldés">
-                </form>
-            </div>
-        </article>
+            </form>
+        </div>
+        </div>
+        -->
         <footer>@Minden jog fenntartva!</footer>
     </main>
 </body>

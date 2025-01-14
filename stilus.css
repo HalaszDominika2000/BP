@@ -99,7 +99,14 @@ article h3 {
   border: 5px solid #7893ae;
   height: 20%; /* Keret szélesség magasság még javítani kell*/
   width: 46%;
+  padding-left: 30px;
+
 }
+
+img {
+  width: 100%;
+}
+
 
 h1, h3, p {
   font-family: sans-serif;
