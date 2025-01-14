@@ -66,6 +66,24 @@ footer {
     margin-bottom: 30px;
 }
 
+article {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.adataid {
+    border: 1px solid gray;
+    margin-right: 150px;
+}
+
+aside {
+    margin-top: 80px;
+}
+
+.viragoskep {
+    padding-left: 50px;
+  }
+
 
 
 
